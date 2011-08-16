@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2215E113FAE899009965E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2215E013FAE899009965E6 /* Cocoa.framework */; };
+		CD2215EB13FAE899009965E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD2215E913FAE899009965E6 /* InfoPlist.strings */; };
+		CD2215ED13FAE899009965E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2215EC13FAE899009965E6 /* main.m */; };
+		CD2215F113FAE899009965E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD2215EF13FAE899009965E6 /* Credits.rtf */; };
+		CD2215F413FAE899009965E6 /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2215F313FAE899009965E6 /* JBAppDelegate.m */; };
+		CD2215F713FAE89A009965E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2215F513FAE89A009965E6 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD2215DC13FAE899009965E6 /* HistoryMerger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoryMerger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2215E013FAE899009965E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD2215E313FAE899009965E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD2215E413FAE899009965E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD2215E513FAE899009965E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD2215E813FAE899009965E6 /* HistoryMerger-Info.plist */ = {isa = PBXFileReference; path = "HistoryMerger-Info.plist"; sourceTree = "<group>"; };
+		CD2215EA13FAE899009965E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD2215EC13FAE899009965E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD2215EE13FAE899009965E6 /* HistoryMerger-Prefix.pch */ = {isa = PBXFileReference; path = "HistoryMerger-Prefix.pch"; sourceTree = "<group>"; };
+		CD2215F013FAE899009965E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD2215F213FAE899009965E6 /* JBAppDelegate.h */ = {isa = PBXFileReference; path = JBAppDelegate.h; sourceTree = "<group>"; };
+		CD2215F313FAE899009965E6 /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
+		CD2215F613FAE89A009965E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2215D913FAE899009965E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2215E113FAE899009965E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2215D113FAE899009965E6 = {
+			isa = PBXGroup;
+			children = (
+				CD2215E613FAE899009965E6 /* HistoryMerger */,
+				CD2215DF13FAE899009965E6 /* Frameworks */,
+				CD2215DD13FAE899009965E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2215DD13FAE899009965E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2215DC13FAE899009965E6 /* HistoryMerger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2215DF13FAE899009965E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2215E013FAE899009965E6 /* Cocoa.framework */,
+				CD2215E213FAE899009965E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD2215E213FAE899009965E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2215E313FAE899009965E6 /* AppKit.framework */,
+				CD2215E413FAE899009965E6 /* CoreData.framework */,
+				CD2215E513FAE899009965E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD2215E613FAE899009965E6 /* HistoryMerger */ = {
+			isa = PBXGroup;
+			children = (
+				CD2215F213FAE899009965E6 /* JBAppDelegate.h */,
+				CD2215F313FAE899009965E6 /* JBAppDelegate.m */,
+				CD2215F513FAE89A009965E6 /* MainMenu.xib */,
+				CD2215E713FAE899009965E6 /* Supporting Files */,
+			);
+			path = HistoryMerger;
+			sourceTree = "<group>";
+		};
+		CD2215E713FAE899009965E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD2215E813FAE899009965E6 /* HistoryMerger-Info.plist */,
+				CD2215E913FAE899009965E6 /* InfoPlist.strings */,
+				CD2215EC13FAE899009965E6 /* main.m */,
+				CD2215EE13FAE899009965E6 /* HistoryMerger-Prefix.pch */,
+				CD2215EF13FAE899009965E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2215DB13FAE899009965E6 /* HistoryMerger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2215FA13FAE89A009965E6 /* Build configuration list for PBXNativeTarget "HistoryMerger" */;
+			buildPhases = (
+				CD2215D813FAE899009965E6 /* Sources */,
+				CD2215D913FAE899009965E6 /* Frameworks */,
+				CD2215DA13FAE899009965E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HistoryMerger;
+			productName = HistoryMerger;
+			productReference = CD2215DC13FAE899009965E6 /* HistoryMerger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2215D313FAE899009965E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Jason Brennan";
+			};
+			buildConfigurationList = CD2215D613FAE899009965E6 /* Build configuration list for PBXProject "HistoryMerger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD2215D113FAE899009965E6;
+			productRefGroup = CD2215DD13FAE899009965E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2215DB13FAE899009965E6 /* HistoryMerger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2215DA13FAE899009965E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2215EB13FAE899009965E6 /* InfoPlist.strings in Resources */,
+				CD2215F113FAE899009965E6 /* Credits.rtf in Resources */,
+				CD2215F713FAE89A009965E6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2215D813FAE899009965E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2215ED13FAE899009965E6 /* main.m in Sources */,
+				CD2215F413FAE899009965E6 /* JBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD2215E913FAE899009965E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2215EA13FAE899009965E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD2215EF13FAE899009965E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2215F013FAE899009965E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD2215F513FAE89A009965E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2215F613FAE89A009965E6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2215F813FAE89A009965E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD2215F913FAE89A009965E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD2215FB13FAE89A009965E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HistoryMerger/HistoryMerger-Prefix.pch";
+				INFOPLIST_FILE = "HistoryMerger/HistoryMerger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD2215FC13FAE89A009965E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HistoryMerger/HistoryMerger-Prefix.pch";
+				INFOPLIST_FILE = "HistoryMerger/HistoryMerger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2215D613FAE899009965E6 /* Build configuration list for PBXProject "HistoryMerger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2215F813FAE89A009965E6 /* Debug */,
+				CD2215F913FAE89A009965E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2215FA13FAE89A009965E6 /* Build configuration list for PBXNativeTarget "HistoryMerger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2215FB13FAE89A009965E6 /* Debug */,
+				CD2215FC13FAE89A009965E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2215D313FAE899009965E6 /* Project object */;
+}
