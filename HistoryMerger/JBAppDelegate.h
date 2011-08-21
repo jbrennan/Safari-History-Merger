@@ -5,6 +5,7 @@
 //  Created by Jason Brennan on 11-08-16.
 //  Copyright (c) 2011 Jason Brennan. All rights reserved.
 //
+//	This project uses ARC.
 
 #import <Cocoa/Cocoa.h>
 
