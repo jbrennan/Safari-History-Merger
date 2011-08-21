@@ -8,8 +8,22 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface JBAppDelegate : NSObject <NSApplicationDelegate>
+@interface JBAppDelegate : NSObject <NSApplicationDelegate> {
+	NSTextField *_oldTextField;
+	NSTextField *_theNewTextField;
+	NSTextField *_outputTextField;
+	NSProgressIndicator *_progressSpinner;
+}
+
 
 @property (strong) IBOutlet NSWindow *window;
 
+- (IBAction)mergeButtonWasPressed:(NSButton *)sender;
+- (IBAction)theNewBrowseWasPressed:(id)sender;
+- (IBAction)oldBrowseWasPressed:(id)sender;
+- (IBAction)outputDirBrowseWasPressed:(id)sender;
+@property (strong) IBOutlet NSTextField *oldTextField;
+@property (strong) IBOutlet NSTextField *theNewTextField;
+@property (strong) IBOutlet NSTextField *outputTextField;
+@property (strong) IBOutlet NSProgressIndicator *progressSpinner;
 @end

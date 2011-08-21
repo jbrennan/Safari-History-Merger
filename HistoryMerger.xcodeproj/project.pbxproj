@@ -21,12 +21,12 @@
 		CD2215E313FAE899009965E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CD2215E413FAE899009965E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CD2215E513FAE899009965E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CD2215E813FAE899009965E6 /* HistoryMerger-Info.plist */ = {isa = PBXFileReference; path = "HistoryMerger-Info.plist"; sourceTree = "<group>"; };
+		CD2215E813FAE899009965E6 /* HistoryMerger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HistoryMerger-Info.plist"; sourceTree = "<group>"; };
 		CD2215EA13FAE899009965E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD2215EC13FAE899009965E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD2215EE13FAE899009965E6 /* HistoryMerger-Prefix.pch */ = {isa = PBXFileReference; path = "HistoryMerger-Prefix.pch"; sourceTree = "<group>"; };
+		CD2215EE13FAE899009965E6 /* HistoryMerger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HistoryMerger-Prefix.pch"; sourceTree = "<group>"; };
 		CD2215F013FAE899009965E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CD2215F213FAE899009965E6 /* JBAppDelegate.h */ = {isa = PBXFileReference; path = JBAppDelegate.h; sourceTree = "<group>"; };
+		CD2215F213FAE899009965E6 /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
 		CD2215F313FAE899009965E6 /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
 		CD2215F613FAE89A009965E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
